@@ -33,6 +33,13 @@ function prevSlide() {
 btnNext.addEventListener('click', nextSlide);
 btnPrev.addEventListener('click', prevSlide);
 
+function hireme(){
+  const mynum = "5541999813959";
+  const mensagem = "Olá, gostei do seu trabalho, me de mais informações";
+  const urlwpp = `https://wa.me/${mynum}?text=${encodeURIComponent(mensagem)}`;
+
+  window.open(urlwpp, "_blank");
+}
 // luz no mouse
 
 // document.addEventListener("mousemove", (e) =>{
